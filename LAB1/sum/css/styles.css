@@ -1,0 +1,78 @@
+*
+{
+    margin:0;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 2rem;
+}
+
+
+section
+{
+    padding : 75px;
+    margin: 45px;
+    background-color: #D6F3FF;
+    border-radius: 25px;
+    box-shadow: 1px -1px 21px 3px rgba(152, 211, 206, 0.4);
+
+}
+
+label
+{
+    display:block;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 25px 0;
+}
+
+#number1, #number2
+
+{
+    padding: 10px ;
+    width: 30%;
+    border-radius: 15px;
+    font-size: 1rem;
+    border: none;
+}
+
+#fields
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+
+#error
+{
+    color:red;
+}
+
+#calSumBtn
+{
+    padding: 15px 35px;
+    background-color: #002B3D;
+    color:white;
+    font-size: 1.2rem;
+    border: 2px solid #002B3D;
+    margin-top: 25px;
+}
+
+#answer
+{
+    margin-top: 35px;
+    color: black;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
